@@ -5,7 +5,7 @@ The Hybrid Isolation Forest (HIF) is an extension of the [Isolation Forest (IF) 
 
 HIF integrates two extensions dedicated to
 * overcome a drawback in the Isolation Forest (IF) algorithm  that limits its use in the scope of anomaly detection 
-* provide it with some supervised learning capability.
+* provide it with some supervised learning capability from few samples
 
 The HIF is described (among other places) in this [draft paper](hif2017.pdf).  
 
