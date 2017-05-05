@@ -1,7 +1,11 @@
 # HIF
 Hybrid Isolation Forest
 
-The Hybrid Isolation Forest (HIF) is an extension of the [Isolation Forest (IF) algorithm] (http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html). IF and HIF are designed for detecting anomalies and outliers from a data point distribution. As is, they are alternative methods to the one-class Support Vecto Machine.
+The Hybrid Isolation Forest (HIF) is an extension of the [Isolation Forest (IF) algorithm] (http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html). IF and HIF are designed for detecting anomalies and outliers from a data point distribution. As is, they are alternative methods to the one-class Support Vector Machine.
+
+HIF integrates two extensions dedicated to
+* overcome a drawback in the Isolation Forest (IF) algorithm  that limits its use in the scope of anomaly detection 
+* provide it with some supervised learning capability.
 
 The HIF is described (among other places) in this [draft paper](hif2017.pdf).  
 
