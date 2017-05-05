@@ -10,9 +10,10 @@ This is a simple package implementation for the HIF (inspired from this simple P
 
 
 ## Installation
+(It supports python3, posssibly python2)
+
 $ sudo python3  setup.py install
  
-It supports python3
 
 ## Requirements
 
