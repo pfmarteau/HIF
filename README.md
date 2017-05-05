@@ -1,7 +1,8 @@
 # HIF
 Hybrid Isolation Forest
 
-This is a simple package implementation for the HIF described (among other places) in this [draft paper](hif2017.pdf) for detecting anomalies and outliers from a data point distribution.
+The Hybrid Isolation Forest is an etension to the [Isolation Forest] (http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html)
+This is a simple package implementation (inspired from the simple Python [IF implementation]((https://github.com/mgckind/iso_forest)))for the HIF described (among other places) in this [draft paper](hif2017.pdf) for detecting anomalies and outliers from a data point distribution.
 
 ## Installation
 $ sudo python3  setup.py install
