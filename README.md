@@ -7,7 +7,7 @@ HIF integrates two extensions dedicated to
 * overcome a drawback in the Isolation Forest (IF) algorithm  that limits its use in the scope of anomaly detection 
 * provide it with some supervised learning capability from few samples
 
-The HIF is described (among other places) in this [draft paper]<http://arxiv.org/abs/1705.03800>.  
+The HIF is described (among other places) in this draft paper <http://arxiv.org/abs/1705.03800>.  
 
 This is a simple package implementation for the HIF (inspired from this simple Python [implementation of the Isolation Forest algorithm](https://github.com/mgckind/iso_forest)).   
 
