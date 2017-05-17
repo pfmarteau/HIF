@@ -33,7 +33,7 @@ $ python3 -i testHIFDonuts.py
 >>> createDonutData(contamin=.005)
 
 ### Creating the HIF
->>> computeHIF(ntrees=256, sample_size=256)
+>>> computeHIF(ntrees=512, sample_size=64)
 
 ### Evaluating globally the HIF (AUC)
 Outputs the best <alpha0> (HIF1) and <alpha1, alpha2> (HIF2) values
