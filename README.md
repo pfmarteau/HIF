@@ -43,7 +43,7 @@ Outputs the best <alpha0> (HIF1) and <alpha1, alpha2> (HIF2) values
 >>> testOneClassSVM(NU=.1, GAMMA=.1)
 
 ### Evaluating globally the 2C-SVM (AUC)
->>> testOneClassSVM(C=.1, GAMMA=.1)
+>>> testTwoClassSVM(C=.1, GAMMA=.1)
 
 ### Evaluating cluster by cluster the IF, HIF(1,2), 1C-SVM, 2C-SVM (AUC)
 >>> plotDetailedResults(alpha0=.5, alpha1=.5, alpha2=.5)
