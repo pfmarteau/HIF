@@ -646,7 +646,7 @@ def computeHIF(ntrees=1024, sample_size=32):
     Nobjst = len(Xnt)
     Nobjsa = len(Xa)
     NobjsaL = len(XaLearn)
-    print('N anomaly added:', NobjsaL)
+    print('# added anomalies:', NobjsaL)
     Nobjsb = len(Xb)
     Nobjsc = len(Xc)
     xn=Xn[:,0]
